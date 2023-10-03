@@ -1,0 +1,277 @@
+.pokedex-page {
+    padding-top: 110px;
+    background-color: #efefef;
+}
+
+.red-rectangle-list {
+    width: 100%;
+    height: 110px;
+    background-color: #dd1a1a;
+    top: 0;
+    position: absolute;
+    bottom: initial;
+}
+
+.black-rectangle-list {
+    width: 100%;
+    height: 30px;
+    position: absolute;
+    background-color: #0c0c0c;
+    bottom: 0;
+}
+
+.circle-list {
+    width: 55px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background-color: #000;
+    border: 10px solid white;
+    outline: 5px solid black;
+    position: absolute;
+    transform: translate(-50%);
+    left: 85%;
+    top: 65px;
+    border-width: 10px;
+    outline-width: 10px;
+}
+
+.logo-pokedex-list {
+    width: 280px;
+    top: 30px;
+    position: absolute;
+    left: 5%;
+}
+
+
+
+.aside-container {
+    padding: 0 20px;
+    margin: 40px 0 25px;
+}
+
+.title-list {
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.span-name {
+    color: #fe1936;
+    font-weight: 700;
+}
+
+.form-container-list {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    column-gap: 20px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.search-container {
+    display: flex;
+}
+
+.input-search {
+    padding: 10px 20px;
+    width: 220px;
+    font-size: 14px;
+    border: none;
+    box-shadow: -2px 2px 6px #0002;
+}
+
+.btn-search {
+    font-size: 14px;
+    font-weight: 100;
+    padding: 10px 20px;
+    border: none;
+    color: #fff;
+    background-color: #d93f3f;
+    cursor: pointer;
+    box-shadow: -2px 2px 6px #0002;
+}
+
+.select-type {
+    font-weight: 300;
+    color: #0c0c0cce;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 15px;
+    border: none;
+    box-shadow: -2px 2px 6px #0002;
+}
+
+.pagination-container {
+    display: flex;
+    gap: 7px;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.res {
+    width: 60px;
+    height: 36px;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+    background: #DD1A1A;
+    color: #fff;
+    font-weight: 700;
+}
+
+.sum {
+    width: 60px;
+    height: 36px;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+    background: #DD1A1A;
+    color: #fff;
+    font-weight: 700;
+}
+
+.page_item {
+    width: 30px;
+    aspect-ratio: 1;
+    border: none;
+    /* border-radius: 5px; */
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+.active-page {
+    background: #DD1A1A;
+    color: #fff;
+    font-weight: 700;
+    height: 36px;
+    border-radius: 5px;
+    width: 36px;
+    margin-left: 4px;
+}
+
+.cards-container {
+    padding: 0 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(min(300px,100%),1fr));
+    gap: 30px 20px;
+}
+
+.card {
+    width: min(300px,100%);
+    justify-self: center;
+    border-radius: 10px;
+    overflow-x: hidden;
+    position: relative;
+    box-shadow: 2px 2px 7px #0c0c0c34;
+    transition: transform .3s ease;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+.header-card {
+    height: 120px;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+
+
+
+
+.img-card {
+    width: 150px;
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    top: 10px;
+    transform: translate(-50%);
+}
+/* .body-card {
+
+} */
+
+.name-poke {
+    text-align: center;
+    text-transform: capitalize;
+    text-shadow: 1px 1px 5px #0C0C0C11;
+}
+
+.type-poke {
+    text-align: center;
+    font-size: 15px;
+}
+
+.type-text {
+    text-align: center;
+    font-size: 12px;
+    color: #0c0c0c77;
+    margin-bottom: 15px;
+}
+
+.hr-stats {
+    border: none;
+    border-top: 1px solid #0C0C0C22;
+    width: 70%;
+    margin-bottom: 15px;
+}
+
+.stats-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px 5px;
+    padding: 0 20px 20px;
+}
+
+.stat-container {
+    justify-self: center;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 11px;
+    color: #0c0c0c77;
+}
+
+.number-stat {
+    font-weight: 600;
+    font-size: 15px;
+    color: #000;
+    margin-top: 2px;
+}
+
+@media (max-width: 670px){
+
+    .aside-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .red-rectangle-list {
+        height: 80px;
+    }
+    
+    .circle-list {
+        width: 50px;
+        top: 40px;
+    }
+    
+    .logo-pokedex-list {
+        width: 200px;
+        top: 13px;
+    }
+    
+     
+    
+
+    
+
+}

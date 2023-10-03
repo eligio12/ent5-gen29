@@ -1,0 +1,125 @@
+.normal {
+    background: linear-gradient(0deg,rgba(242,242,242,1) 0%,rgba(195,195,195,1) 100%);
+}
+.normal-border {
+    border: 7px solid rgba(195,195,195,.7);
+}
+
+.fighting {
+    background: linear-gradient(0deg,rgba(255,250,243,1) 0%,rgba(221,101,0,1) 100%);
+}
+.fighting-border {
+    border: 7px solid rgba(221,101,0,.7);
+}
+
+.flying {
+    background: linear-gradient(0deg,rgba(243,254,255,1) 0%,rgba(79,225,230,1) 100%);
+}
+.flying-border {
+    border: 7px solid rgba(79,225,230,.7);
+}
+
+.poison {
+    background: linear-gradient(0deg,rgba(250,233,254,1) 0%,rgba(192,79,230,1) 100%);
+}
+.poison-border {
+    border: 7px solid rgba(192,79,230,.7);
+}
+
+.ground {
+    background: linear-gradient(0deg,rgba(183,169,144,1) 0%,rgba(106,66,10,1) 100%);
+}
+.ground-border {
+    border: 7px solid rgba(106,66,10,.7);
+}
+
+.rock {
+    background: linear-gradient(0deg,rgba(185,185,185,1) 0%,rgba(82,82,82,1) 100%);
+}
+.rock-border {
+    border: 7px solid rgba(82,82,82,.7);
+}
+
+.bug {
+    background: linear-gradient(0deg,rgba(165,243,215,1) 0%,rgba(0,143,112,1) 100%);
+}
+.bug-border {
+    border: 7px solid rgba(0,143,112,.7);
+}
+
+.ghost {
+    background: linear-gradient(0deg,rgba(166,157,182,1) 0%,rgba(51,0,136,.7609637605042017) 100%);
+}
+.ghost-border {
+    border: 7px solid rgba(51,0,136,.6);
+}
+
+.steel {
+    background: linear-gradient(0deg,rgba(219,219,219,1) 0%,rgba(105,105,105,1) 100%);
+}
+.steel-border {
+    border: 7px solid rgba(105,105,105,.7);
+}
+
+.fire {
+    background: linear-gradient(0deg,rgba(230,155,28,1) 0%,rgba(255,49,0,1) 100%);
+}
+.fire-border {
+    border: 7px solid rgba(255,49,0,.8);
+}
+
+.water {
+    background: linear-gradient(0deg,rgba(215,250,255,1) 0%,rgba(0,226,255,1) 48%,rgba(0,140,255,1) 100%);
+}
+.water-border {
+    border: 7px solid rgba(0,140,255,.8);
+}
+
+.grass {
+    background: linear-gradient(0deg,rgba(203,255,169,1) 0%,rgba(43,131,0,1) 100%);
+}
+.grass-border {
+    border: 7px solid rgba(43,131,0,.8);
+}
+
+.electric {
+    background: linear-gradient(0deg,rgba(250,253,182,1) 0%,rgba(255,203,0,1) 100%);
+}
+.electric-border {
+    border: 7px solid rgba(255,203,0,.8);
+}
+
+.psychic {
+    background: linear-gradient(0deg,rgba(255,218,250,1) 0%,rgba(255,0,247,1) 100%);
+}
+.psychic-border {
+    border: 7px solid rgba(255,0,247,.8);
+}
+
+.ice {
+    background: linear-gradient(0deg,rgba(254,254,254,1) 0%,rgba(0,217,255,1) 100%);
+}
+.ice-border {
+    border: 7px solid rgba(0,217,255,.8);
+}
+
+.dragon {
+    background: linear-gradient(0deg,rgba(160,92,177,1) 0%,rgba(255,95,113,1) 100%);
+}
+.dragon-border {
+    border: 7px solid rgba(160,92,177,.8);
+}
+
+.dark {
+    background: linear-gradient(0deg,rgba(127,126,127,1) 0%,rgba(0,0,0,1) 100%);
+}
+.dark-border {
+    border: 7px solid rgba(0,0,0,.8);
+}
+
+.fairy {
+    background: linear-gradient(0deg,rgba(255,249,253,.9906556372549019) 0%,rgba(255,177,226,1) 100%);
+}
+.fairy-border {
+    border: 7px solid rgba(255,177,226,.8);
+}

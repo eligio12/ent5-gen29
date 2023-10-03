@@ -1,0 +1,274 @@
+.poke-id-container {
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    background-color: #efefef;
+}
+
+.return-list {
+    position: fixed;
+    top: 140px;
+    left: 30px;
+    width: 50px;
+    aspect-ratio: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0c0c0c22;
+    border-radius: 50%;
+    font-weight: 500;
+    font-size: 25px;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.card-info {
+    width: min(800px,100%);
+    margin-top: 240px;
+    box-shadow: 0 2px 5px #0c0c0c34;
+    border-radius: 10px; 
+}
+
+.header-card-info {
+    width: 100%;
+    height: 120px;
+    position: relative;
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.next-preview-poke {
+    width: 40px;
+    border: none;
+    background-color: #0c0c0c22;
+    color: #fff;
+    font-size: 29px;
+    border-radius: 10px 0 0;
+    cursor: pointer;
+}
+
+.img-card-info {
+    width: min(250px,60%);
+    position: absolute;
+    bottom: -6px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.body-card-info {
+    padding: 20px;
+    background-color: #fff;
+    position: relative;
+    border-radius: 0 0 10px 10px;
+}
+
+.general-info-card-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.id-general-info {
+    font-size: 25px;
+    border: 1px solid #0C0C0C44;
+    padding: 5px 10px;
+    margin-bottom: 20px;
+}
+
+.hr-card-info {
+    border: none;
+    border-top: 1px solid #0C0C0C66;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.name-poke-card-info {
+    font-size: 25px;
+    text-transform: capitalize;
+    background-color: #fff;
+    padding: 0 10px;
+    position: absolute;
+    top: 65px;
+}
+
+.weight-height-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.weight-height {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.span-weight-height {
+    font-size: 14px;
+    color: #0c0c0c99;
+    font-weight: 300;
+}
+
+.type-habilities-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.type-habilities {
+    text-align: center;
+    color: #060606;
+    text-transform: capitalize;
+    padding: 5px 20px;
+    font-weight: 600;
+}
+
+.span-type-habilities {
+    display: block;
+    margin-bottom: 10px;
+    color: #0c0c0c99;
+}
+
+.type-habilities-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.ability-card-info {
+    border: 1px solid #0C0C0C44;
+}
+
+.stats-container {
+    position: relative;
+    margin-top: 20px;
+    padding-top: 10px;
+}
+
+.stat-hr {
+    margin-bottom: 25px;
+}
+
+.title-stat {
+    position: absolute;
+    top: 0;
+    left: -1px;
+    padding: 0 10px;
+    background-color: #fff;
+}
+
+.stat-container {
+    width: 100%;
+}
+
+.stat-name-number {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.stat-name {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.stat-number {
+    margin-top: 25px;
+}
+
+.bar-container {
+    width: 100%;
+    height: 30px;
+    background-color: #efefef;
+}
+
+.bar-stat-container{
+    height: 100%;
+    transition: width 500ms ease 0s;
+    background: linear-gradient(90deg,#FCD676 -2.25%,#E6901E 133.18%); 
+}
+
+.movement-container {
+    width: min(800px,100%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px #0c0c0c34;
+    position: relative;
+}
+
+.hr-movement {
+    margin-top: 13px;
+    margin-bottom: 30px;
+}
+
+.title-movement {
+    position: absolute;
+    top: 12px;
+    left: 19px;
+    padding: 5px 10px;
+    background-color: #fff;
+}
+
+.name-movement-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(180px,1fr));
+    gap: 1px 15px;
+}
+
+.name-movement {
+    width: 100%;
+    border-radius: 35px;
+    height: 40px;
+    font-size: 18px;
+    background-color: #e5e5e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 670px){
+    .return-list {
+        top: 90px;
+        left: 20px;
+    }
+
+    .card-info {
+        margin-top: 150px;
+    }
+
+
+    .name-movement {
+        width:100%;
+    }
+    .name-movement-container {
+        grid-template-columns: repeat(auto-fit,minmax(110px,1fr));
+        gap: 0 10px;
+    }
+
+    
+}
+
+@media (max-width: 1000px){
+
+    .return-list {
+        position: absolute;
+    }
+    
+}
+    
+     
+    
+
+    
